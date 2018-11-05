@@ -7,7 +7,6 @@ win = GraphWin("Temperature Converter",400,300)			#Set the Window and the Co-ord
 win.setCoords(0.0,0.0,3.0,4.0)
 
 #Draw the interface
-
 Text(Point(1,3), 'Temperature in Degree Celcius : ').draw(win)
 Text(Point(1,1), 'Temperature in Degree Fahreneit : ').draw(win)
 inputText = Entry(Point(2.25,3),5)
