@@ -22,8 +22,12 @@ button.draw(win)
 Rectangle(Point(1,1.5),Point(2,2.5)).draw(win)
 
 #Wait for a mouse click
-win.getMouse()
-
+while True:
+	p = win.getMouse()
+	x = p.getX()
+	y = p.getY()
+	if 1 <= x and 2>=x and 1.5<=y and 2.5>= y:
+		break
 #Convert input
 celcius = float(inputText.getText())
 fahreneit = (9.0/5.0) * celcius + 32
@@ -33,7 +37,12 @@ outputText.setText(round(fahreneit,2))
 button.setText('Quit')
 
 # Wait for mouse click and quit
-win.getMouse()
+while True:
+	p = win.getMouse()
+	x = p.getX()
+	y = p.getY()
+	if 1 <= x and 2>=x and 1.5<=y and 2.5>= y:
+		break
 win.close()
 
 
