@@ -1,9 +1,9 @@
-#Tic-Tac-Toe Game
+#Tic-Tac-Toe Game in Python
 import os
 Board = {"topL" : " ", "topM" : " ", "topR" : " ",
          "midL" : " ", "midM" : " ", "midR" : " ",
          "lowL" : " ", "lowM" : " ", "lowR" : " ",}
-def printboard(Board):
+def printboard(Board):                                                          #Prints the game board.
     print(Board["topL"] + "|" + Board["topM"] + "|" + Board["topR"])
     print("-+-+-")
     print(Board["midL"] + "|" + Board["midM"] + "|" + Board["midR"])
@@ -14,7 +14,7 @@ turn = "X"
 count = 0
 flag = 0
 while count < 10:
-    if flag != 1:
+    if flag != 1: #No player has won
         print("Turn for " + turn + ". Move on which space?(Type \'Quit\' to exit game)")
         move = input()
 
