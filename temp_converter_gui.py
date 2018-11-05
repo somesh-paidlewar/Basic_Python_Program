@@ -17,6 +17,7 @@ outputText = Text(Point(2.25,1), "-")
 outputText.draw(win)
 
 button = Text(Point(1.5,2.0),'Convert It')
+button.setStyle('bold')
 button.draw(win)
 
 Rectangle(Point(1,1.5),Point(2,2.5)).draw(win)
