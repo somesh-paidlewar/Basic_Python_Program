@@ -12,8 +12,8 @@ rect.setFill('green')
 rect.setWidth(4)
 rect.draw(win)
 
-time.sleep(10)								#Time for user to see output
-
+#time.sleep(10)								#Time for user to see output
+win.getMouse()
 win.close()
 
 
