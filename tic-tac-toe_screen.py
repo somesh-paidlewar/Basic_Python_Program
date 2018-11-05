@@ -1,7 +1,7 @@
 #Tic-Tac-Toe Screen
 from graphics import *
 import time
-win = GraphWin()
+win = GraphWin("Tic-Tac-Toe",600,600)
 
 #set co-ordinate system
 
