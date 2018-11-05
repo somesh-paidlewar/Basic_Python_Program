@@ -16,5 +16,5 @@ Line(Point(0,1),Point(3,1)).draw(win)	#Horizontal Lines
 Line(Point(0,2),Point(3,2)).draw(win)
 
 time.sleep(10)
-#input("Press <Enter> key to exit")
+
 win.close()
