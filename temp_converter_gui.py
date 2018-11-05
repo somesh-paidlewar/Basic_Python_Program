@@ -21,7 +21,7 @@ button.draw(win)
 
 Rectangle(Point(1,1.5),Point(2,2.5)).draw(win)
 
-#Wait for a mouse click
+# Wait for a mouse click
 while True:
 	p = win.getMouse()
 	x = p.getX()
