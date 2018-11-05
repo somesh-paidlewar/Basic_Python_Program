@@ -20,7 +20,7 @@ button = Text(Point(1.5,2.0),'Convert It')
 button.draw(win)
 
 Rectangle(Point(1,1.5),Point(2,2.5)).draw(win)
-
+input = inputText.getText()
 # Wait for a mouse click
 while True:
 	p = win.getMouse()
@@ -28,6 +28,7 @@ while True:
 	y = p.getY()
 	if 1 <= x and 2>=x and 1.5<=y and 2.5>= y:
 		break
+
 #Convert input
 celcius = float(inputText.getText())
 fahreneit = (9.0/5.0) * celcius + 32
@@ -44,6 +45,4 @@ while True:
 	if 1 <= x and 2>=x and 1.5<=y and 2.5>= y:
 		break
 win.close()
-
-
 
