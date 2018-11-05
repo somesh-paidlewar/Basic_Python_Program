@@ -15,6 +15,7 @@ Line(Point(2,0),Point(2,3)).draw(win)
 Line(Point(0,1),Point(3,1)).draw(win)	#Horizontal Lines
 Line(Point(0,2),Point(3,2)).draw(win)
 
-time.sleep(10)
+win.getMouse()
+#time.sleep(10)
 
 win.close()
