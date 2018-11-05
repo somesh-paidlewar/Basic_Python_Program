@@ -22,6 +22,7 @@ p3.draw(win)
 
 triangle = Polygon(p1,p2,p3)
 triangle.setFill('peachpuff')
+triangle.setOutline('cyan')
 triangle.setWidth(3)
 triangle.draw(win)
 
