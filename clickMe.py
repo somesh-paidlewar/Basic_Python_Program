@@ -10,5 +10,6 @@ for i in range (3):
 	p = win.getMouse()
 	print(' You clicked at :',p.getX,p.getY)
 
-time.sleep(10)
+#time.sleep(10)
+win.getMouse()
 win.close()
