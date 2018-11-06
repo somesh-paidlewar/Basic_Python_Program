@@ -3,7 +3,7 @@ from graphics import *
 
 # seting the graphics window for the game
 
-win = GraphWin('Tic Tac Toe',800,800)	
+win = GraphWin('Tic Tac Toe',600,600)	
 win.setCoords(0.0,0.0,8.0,8.0)
 
 # draw lines for the game board
