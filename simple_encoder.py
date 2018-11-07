@@ -2,7 +2,7 @@
 # this program takes a string input message from the user 
 # and copies the encoded message to the clipboard of the user
 
-def main():
+def encoder():
 	import pyperclip
 	print("Enter your message to encode ")
 	message = input("Your message :- ")
@@ -13,4 +13,4 @@ def main():
 	print("Your message Succesfully encoded and copied to ")
 	print("your clipboard!!")
 
-main()
+encoder()
